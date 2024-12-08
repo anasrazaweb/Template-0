@@ -13,7 +13,13 @@ const TopPicks = () => {
           }
         />
       </div>
-      <TopPicksCard />
+
+      <div className=" grid grid-cols-4 mt-5 gap-10 w-full">
+        <TopPicksCard img="/img/pick01.png" />
+        <TopPicksCard img="/img/pick02.png" />
+        <TopPicksCard img="/img/pick01.png" />
+        <TopPicksCard img="/img/pick02.png" />
+      </div>
     </div>
   );
 };
