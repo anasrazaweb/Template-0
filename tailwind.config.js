@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        liteOrange: "#FBEBB5",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
